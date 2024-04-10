@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\6th sem\\School Management System\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E87B96B-12DD-4B0B-AE88-43A2A909F9B0}|School Management System\\School Management System.csproj|e:\\6th sem\\school management system\\school management system\\controllers\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E87B96B-12DD-4B0B-AE88-43A2A909F9B0}|School Management System\\School Management System.csproj|solutionrelative:school management system\\controllers\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E87B96B-12DD-4B0B-AE88-43A2A909F9B0}|School Management System\\School Management System.csproj|e:\\6th sem\\school management system\\school management system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3E87B96B-12DD-4B0B-AE88-43A2A909F9B0}|School Management System\\School Management System.csproj|solutionrelative:school management system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\6th sem\\School Management System\\School Management System\\appsettings.json",
+              "RelativeDocumentMoniker": "School Management System\\appsettings.json",
+              "ToolTip": "E:\\6th sem\\School Management System\\School Management System\\appsettings.json",
+              "RelativeToolTip": "School Management System\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-09T14:00:42.402Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Students.cs",
+              "DocumentMoniker": "E:\\6th sem\\School Management System\\School Management System\\Controllers\\Students.cs",
+              "RelativeDocumentMoniker": "School Management System\\Controllers\\Students.cs",
+              "ToolTip": "E:\\6th sem\\School Management System\\School Management System\\Controllers\\Students.cs",
+              "RelativeToolTip": "School Management System\\Controllers\\Students.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T13:45:03.402Z",
+              "EditorCaption": ""
             }
           ]
         }
