@@ -1,8 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using School_Management_System.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddDbContext<DatabseContext>(Options=>Options.UseSqlServer(
+   builder.Configuration.GetConnectionString("DefaultConnection")
+    ));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
