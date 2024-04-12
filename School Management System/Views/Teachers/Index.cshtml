@@ -1,0 +1,36 @@
+﻿@model List<School_Management_System.Models.Teacher>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Teachers</h1>
+<a asp-controller="Teachers" asp-action="Create" class="btn btn-primary">Add new</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Teacher ID</th>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Email</th>
+            <th></th> <!-- column for the Edit button -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var teacher in Model)
+        {
+            <tr>
+                <td>@teacher.TeacherId</td>
+                <td>@teacher.Name</td>
+                <td>@teacher.Subject</td>
+                <td>@teacher.Email</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@teacher.TeacherId" class="btn btn-primary">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@teacher.TeacherId" class="btn btn-danger">Delete</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
